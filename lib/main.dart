@@ -5,10 +5,7 @@ void main() {
     home: BelajarStackWidget(),
   ));
 }
- appBar: AppBar(
-        title: Text('Toko Online'),
-      ),
-      
+
 class BelajarStackWidget extends StatefulWidget {
   @override
   _BelajarStackWidgetState createState() => _BelajarStackWidgetState();
