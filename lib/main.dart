@@ -68,7 +68,7 @@ class MyHomePage extends StatelessWidget {
             decoration: BoxDecoration(
               color: const Color(0xff7c94b6),
               image: const DecorationImage(
-                image: NetworkImage('https://i.postimg.cc/Y9DWs4vB/IMG20210919095853.jpg'),
+                image: NetworkImage('https://img.beritasatu.com/cache/investor/798x449-2/1623225210.jpg'),
                 fit: BoxFit.cover,
               ),
               border: Border.all(
@@ -102,7 +102,7 @@ class MyHomePage extends StatelessWidget {
             decoration: BoxDecoration(
               color: const Color(0xff7c94b6),
               image: const DecorationImage(
-                image: NetworkImage('https://i.postimg.cc/Y9DWs4vB/IMG20210919095853.jpg'),
+                image: NetworkImage('https://i.pinimg.com/550x/25/c9/a1/25c9a155dc6c2f71912548bbf2101ffb.jpg'),
                 fit: BoxFit.cover,
               ),
               border: Border.all(
