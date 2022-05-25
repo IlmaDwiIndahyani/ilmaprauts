@@ -1,33 +1,49 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp())
-  
-};
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  Widget build(BuildContext context){
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
     return MaterialApp(
-      home:MyHomePage(),
-      // about:About(),
-      // profile:Profile(),
+      debugShowCheckedModeBanner: false,
+      home: ListViewHome(),
     );
   }
 }
-class MyHomePage extends StatelessWidget {
-  Widget build(BuildContext context){
+
+class ListViewHome extends StatelessWidget {
+  var date = DateTime.now();
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text ('Belajar Mobile Programming'),
+        title: Text('Galery'),
       ),
-      body: Center(
-        child: Text('Selamat Datang Di Pembelajaran Mobile Programming'
-        style: TextStyle(
-          fontSize: 40,
-          fontFamily: 'DancingScript'
-        ))
-      )
-    )
+      body: GridView.count(
+        crossAxisCount: 2,
+        children: List.generate(30, (index) {
+          return Container(
+            child: Card(
+              color: Colors.deepPurpleAccent,
+              child: Container(
+                alignment: Alignment.bottomCenter,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: NetworkImage('https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/12/05/838258459.jpeg'),
+                    fit: BoxFit.fitHeight,
+                  ),
+                ),
+                child: ListTile(
+                  title: Text(date.day.toString() + '/' + date.month.toString() + '/' + date.year.toString(), style: TextStyle(color: Colors.white, fontSize: 24.0)),
+                ),
+              ),
+            ),
+          );
+        }),
+      ),
+    );
   }
-
 }
