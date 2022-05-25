@@ -20,7 +20,7 @@ class ListViewHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Galery'),
+        title: Text('Toko Online'),
       ),
       body: GridView.count(
         crossAxisCount: 2,
