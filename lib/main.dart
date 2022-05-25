@@ -34,7 +34,7 @@ class MyHomePage extends StatelessWidget {
             decoration: BoxDecoration(
               color: const Color(0xff7c94b6),
               image: const DecorationImage(
-                image: NetworkImage('https://i.postimg.cc/Y9DWs4vB/IMG20210919095853.jpg'),
+                image: NetworkImage('https://cf.shopee.co.id/file/52d6a737fede49a1282b6c2371c7cab1'),
                 fit: BoxFit.cover,
               ),
               border: Border.all(
