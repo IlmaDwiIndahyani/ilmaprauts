@@ -38,13 +38,13 @@ class MyHomePage extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
               border: Border.all(
-                color: Colors.black,
+                color: Colors.grey,
                 width: 8,
               ),
               borderRadius: BorderRadius.circular(12),
             ),
-            height: 150,
-            width: 150,
+            height: 130,
+            width: 130,
           ),
           Container(
             decoration: BoxDecoration(
@@ -54,13 +54,13 @@ class MyHomePage extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
               border: Border.all(
-                color: Colors.black,
+                color: Colors.grey,
                 width: 8,
               ),
               borderRadius: BorderRadius.circular(12),
             ),
-            height: 150,
-            width: 150,
+            height: 130,
+            width: 130,
           )
         ]),
         new Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
@@ -72,13 +72,13 @@ class MyHomePage extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
               border: Border.all(
-                color: Colors.black,
+                color: Colors.grey,
                 width: 8,
               ),
               borderRadius: BorderRadius.circular(12),
             ),
-            height: 150,
-            width: 150,
+            height: 130,
+            width: 130,
           ),
           Container(
             decoration: BoxDecoration(
@@ -88,13 +88,13 @@ class MyHomePage extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
               border: Border.all(
-                color: Colors.black,
+                color: Colors.grey,
                 width: 8,
               ),
               borderRadius: BorderRadius.circular(12),
             ),
-            height: 150,
-            width: 150,
+            height: 130,
+            width: 130,
           )
         ]),
         new Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
@@ -106,13 +106,13 @@ class MyHomePage extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
               border: Border.all(
-                color: Colors.black,
+                color: Colors.grey,
                 width: 8,
               ),
               borderRadius: BorderRadius.circular(12),
             ),
-            height: 150,
-            width: 150,
+            height: 130,
+            width: 130,
           ),
           Container(
             decoration: BoxDecoration(
@@ -122,13 +122,13 @@ class MyHomePage extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
               border: Border.all(
-                color: Colors.black,
+                color: Colors.grey,
                 width: 8,
               ),
               borderRadius: BorderRadius.circular(12),
             ),
-            height: 150,
-            width: 150,
+            height: 130,
+            width: 130,
           )
         ])
       ]),
