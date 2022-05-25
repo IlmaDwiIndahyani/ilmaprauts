@@ -22,7 +22,7 @@ class MyHomePage extends StatelessWidget {
       ),
 
       // body: Center(
-      //   child: Text('Selamat Datang Di Pembelajaran Mobile Programming'
+      //   child: Text('Toko Online'
       //   style: TextStyle(
       //     fontSize: 40,
       //     fontFamily: 'DancingScript'
